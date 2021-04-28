@@ -1,0 +1,99 @@
+.title-wrapper {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 37px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-top: 73px;
+}
+
+.content {
+  width: 658px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.category {
+  display: inline-block;
+  margin-right: 33px;
+}
+.category-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  background: rgba(72, 132, 255, 0.37);
+  border-radius: 30px;
+  color: #ffffff;
+  margin-top: 6px;
+  padding: 6px 9px;
+  text-align: center;
+}
+.selected {
+  background: #4884ff;
+}
+.apply-btn {
+  width: 102px;
+  margin: 18px auto;
+}
+.connect-wallet {
+  width: 985px;
+  height: 430px;
+  background: #f7faff;
+  margin: 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect-wallet-btn {
+  background: #f3ba2f;
+  border-radius: 30px;
+  width: 356px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 18px;
+  margin: 0 auto;
+}
+
+.metamask-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 780px;
+  margin: 0 auto;
+  margin-top: 16%;
+}
+.metamask-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 43px;
+  text-align: center;
+  color: #4884ff;
+}
+.metamask-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #4884ff;
+}
+.metamask-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
