@@ -7,17 +7,30 @@
 
 .home-right,
 .home-left {
-  display: inline-block;
-  width:50%;
+  display: inline-flex;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 78px);
+}
+.home-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: calc(100vh - 75px);
 }
-.home-title-wrapper{
-  margin-left: 170px;
-  margin-top: 273px;
-  width:507px;
+.home-title-wrapper-inner {
+  max-width: 507px;
 }
-.home-right-wrapper{
-  margin-top: 273px;
+.home-right-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 75px);
+}
+.home-right-wrapper-inner {
+  margin: auto;
 }
 
 .goto-home-app {
@@ -35,7 +48,7 @@
   padding: 7px;
 }
 
-.home-title{
+.home-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -43,7 +56,7 @@
   line-height: 86px;
   color: #ffffff;
 }
-.home-sub-title{
+.home-sub-title {
   font-family: Roboto;
   font-family: Roboto;
   font-style: normal;
@@ -53,15 +66,18 @@
   color: #ffffff;
   margin: 10px 0px;
 }
-.home-icons{
-  margin-top: 24px;   
+.home-icons {
+  margin-top: 24px;
 }
-.home-image{
-  width:217;
-  height: 332px;
+.home-image {
+  display: block;
+  width: 100%;
+  max-width: 500px; /*actual image width*/
+  height: auto; /* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
 }
-.home-image2{
-  width:121px;
+.home-image2 {
+  width: 121px;
   height: 180px;
   position: relative;
   margin-top: 20%;
